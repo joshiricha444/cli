@@ -119,7 +119,7 @@ spec:
       params:
         {{ lookup('template', 'taskdefs/fvt-aiservice/common/params.yml.j2') | indent(8) }}
         - name: fvt_test_suite
-          value: 1.0.3-pre.gpt_oss_120b
+          value: 1.0.3
       runAfter:
         - fvt-aiservice-pcc
         - fvt-aiservice-similarity
